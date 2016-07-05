@@ -7,16 +7,15 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 马超
+  name: lydon
   email: drizzt@aliyun.com
   link: https://lydon18.github.io/
   weibo: http://weibo.com/drizztblog
   github: http://github.com/DrizztM
 
 # 站点信息
-title: 马超的博客 
-description: 马超的博客
-url: http://blog.drizzt.cn
+title: lydon的博客 
+description: lydons的博客
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
