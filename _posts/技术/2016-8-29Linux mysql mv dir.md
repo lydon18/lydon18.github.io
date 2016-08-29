@@ -1,3 +1,10 @@
+	---
+	layout: post
+	title: linux下更改mysql数据库目录位置
+	category: 技术
+	keywords: java
+	---
+
 MySQL默认的数据文件存储目录为/var/lib/mysql。假如要把目录移到/home/data下需要进行下面几步：
 
 
