@@ -9,8 +9,9 @@ keywords: java
 
 
 ### 1、home目录下建立data目录
-　　```cd /home
-　　mkdir data
+　　```
+	cd /home
+　　	mkdir data
 	```
 
 ###　2、把MySQL服务进程停掉： 
@@ -19,15 +20,17 @@ keywords: java
 
 
 ###　　3、把/var/lib/mysql整个目录移到/home/data
-　　```mv /var/lib/mysql　/home/data/
-   ```
+　　```
+	mv /var/lib/mysql　/home/data/
 　　这样就把MySQL的数据文件移动到了/home/data/mysql下
+   ```
 
 
 ###　　4、找到my.cnf配置文件
 　　如果/etc/目录下没有my.cnf配置文件，请到/usr/share/mysql/下找到*.cnf文件，拷贝其中一个到/etc/并改名为my.cnf)中。命令如下：
-　　 ```[root@test1 mysql]# cp /usr/share/mysql/my-medium.cnf　/etc/my.cnf
-```
+　　 ```
+	/share/mysql/my-medium.cnf　/etc/my.cnf
+	```
 
 
 ###　　5、编辑MySQL的配置文件/etc/my.cnf
