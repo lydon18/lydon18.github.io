@@ -5,31 +5,31 @@
 	keywords: java
 	---
 
-MySQL默认的数据文件存储目录为/var/lib/mysql。假如要把目录移到/home/data下需要进行下面几步：
+## MySQL默认的数据文件存储目录为/var/lib/mysql。假如要把目录移到/home/data下需要进行下面几步：
 
 
 　　1、home目录下建立data目录
-　　cd /home
+　　```cd /home
 　　mkdir data
 
 
 　　2、把MySQL服务进程停掉： 
-　　mysqladmin -u root -p shutdown
+　　```mysqladmin -u root -p shutdown
 
 
 　　3、把/var/lib/mysql整个目录移到/home/data
-　　mv /var/lib/mysql　/home/data/
+　　```mv /var/lib/mysql　/home/data/
 　　这样就把MySQL的数据文件移动到了/home/data/mysql下
 
 
 　　4、找到my.cnf配置文件
 　　如果/etc/目录下没有my.cnf配置文件，请到/usr/share/mysql/下找到*.cnf文件，拷贝其中一个到/etc/并改名为my.cnf)中。命令如下：
-　　 [root@test1 mysql]# cp /usr/share/mysql/my-medium.cnf　/etc/my.cnf
+　　 ```[root@test1 mysql]# cp /usr/share/mysql/my-medium.cnf　/etc/my.cnf
 
 
 　　5、编辑MySQL的配置文件/etc/my.cnf
 　　为保证MySQL能够正常工作，需要指明mysql.sock文件的产生位置。 修改socket=/var/lib/mysql/mysql.sock一行中等号右边的值为：/home/mysql/mysql.sock 。操作如下：
-　　 vi　 my.cnf　　　 (用vi工具编辑my.cnf文件，找到下列数据修改之)
+　　``` vi　 my.cnf　　　 (用vi工具编辑my.cnf文件，找到下列数据修改之)
 　　 # The MySQL server
 　　　 [mysqld]
 　　　 port　　　= 3306
