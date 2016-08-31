@@ -50,18 +50,19 @@ keywords: java
 	```
 
 ###　7、重新启动MySQL服务
+
 	```/etc/init.d/mysql　start
 	```
 　　或用reboot命令重启Linux，如果工作正常移动就成功了，否则对照前面的7步再检查一下。
 
 假设数据库原来的存放目录为/usr/local/mysql/var ，新的目录为/var/mysql
 
-	```1./usr/local/mysql/share/mysql/mysql.server stop
-		2.mkdir /var/mysql
-	   chown -R mysql /var/mysql
-	   chgrp -R mysql /var/mysql
-		3.vi /etc/my.cnf  
-	   add: datadir=/var/mysql
+	```1.	/usr/local/mysql/share/mysql/mysql.server stop    
+	2.	mkdir /var/mysql   
+	chown -R mysql /var/mysql   
+	chgrp -R mysql /var/mysql
+	   3.	vi /etc/my.cnf     
+	   add: datadir=/var/mysql   
 	   log-bin=/var/mysql/mysql-bin
-		4./usr/local/mysql/share/mysql/mysql.server start
+	   4.	/usr/local/mysql/share/mysql/mysql.server start
 	```
