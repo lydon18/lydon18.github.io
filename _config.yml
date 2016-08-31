@@ -8,10 +8,7 @@ kramdown:
 # 作者信息
 author: 
   name: lydon
-  email: drizzt@aliyun.com
   link: https://lydon18.github.io/
-  weibo: http://weibo.com/drizztblog
-  github: http://github.com/DrizztM
 
 # 站点信息
 title: lydon的博客 
