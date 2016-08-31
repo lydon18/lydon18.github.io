@@ -31,7 +31,7 @@ mv /var/lib/mysql　/home/data/
 ### 4、找到my.cnf配置文件
 　　如果/etc/目录下没有my.cnf配置文件，请到/usr/share/mysql/下找到*.cnf文件，拷贝其中一个到/etc/并改名为my.cnf)中。命令如下：
 ```
-/share/mysql/my-medium.cnf　/etc/my.cnf
+cp /share/mysql/my-medium.cnf　/etc/my.cnf
 ```
 
 
