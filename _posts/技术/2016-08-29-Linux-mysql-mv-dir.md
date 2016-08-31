@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux下更改mysql数据库目录位置
-category: 生活
+category: 技术
 keywords: java
 ---
 
