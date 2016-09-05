@@ -7,8 +7,8 @@ keywords: java
 
 ## 安装ndk
 打开androidstudio，点击sdkManager,点击sdktool,选择ndk点击install
-![Alt text](/assets/img/0069.png)
-<img alt="安装ndk" src="/assets/img/0069.png"/>
+![Alt text](/lydon18.github.io/assets/img/0069.png)
+<img alt="安装ndk" src="/lydon18.github.io/assets/img/0069.png"/>
 
 ## 生成so
 1.	第一次生成so文件的时候，我们先使用NDK的sample下的hello-jni的例子。						
