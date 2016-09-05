@@ -7,8 +7,7 @@ keywords: java
 
 ## 安装ndk
 打开androidstudio，点击sdkManager,点击sdktool,选择ndk点击install
-![Alt text](/lydon18.github.io/assets/img/0069.png)
-<img alt="安装ndk" src="/lydon18.github.io/assets/img/0069.png"/>
+![安装ndk](/lydon18.github.io/assets/img/0069.png)
 
 ## 生成so
 1.	第一次生成so文件的时候，我们先使用NDK的sample下的hello-jni的例子。						
@@ -51,7 +50,8 @@ keywords: java
     ```
 5.	生成so文件，点击project buildproject 或者refresh项目就会自动生成libhello-jni.so的文件
 6.	so文件的调用			
-      在HelloJni.java文件中有一段代码：				
+      在HelloJni.java文件中有一段代码：
+      				
       ```
     static {
         System.loadLibrary("hello-jni");
