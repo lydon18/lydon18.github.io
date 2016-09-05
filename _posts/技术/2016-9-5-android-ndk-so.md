@@ -26,9 +26,8 @@ keywords: java
 	LOCAL_SRC_FILES := hello-jni.c表示生成库文件的源文件是hello-jni.c
 	```
 	
-	    打开hello-jni.c文件，会看到里面有一个函数：	
-	    
-	    ```		
+	   打开hello-jni.c文件，会看到里面有一个函数：	                  
+	 ```		
 	jstring Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env, jobject thiz )				
 	{			
 	    return (*env)->NewStringUTF(env, "Hello from JNI !");				
