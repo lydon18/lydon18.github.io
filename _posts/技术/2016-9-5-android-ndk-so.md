@@ -7,6 +7,7 @@ keywords: java
 
 ## 安装ndk
 打开androidstudio，点击sdkManager,点击sdktool,选择ndk点击install
+![Alt text](assets/img/0069.png)
 <img alt="安装ndk" src="assets/img/0069.png"/>
 
 ## 生成so
