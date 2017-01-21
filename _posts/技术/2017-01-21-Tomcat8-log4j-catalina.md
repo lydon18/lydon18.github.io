@@ -6,9 +6,9 @@ keywords: tomcat8 log4j
 ---
 
 ## 准备工作
-1.下载log4j-1.2.17.jar（http://www.apache.org/dist/logging/log4j/1.2.17/）      
-2.下载 tomcat-juli.jar（http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/）      
-3.下载 tomcat-juli-adapters.jar（http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/）	
+1.下载log4j-1.2.17.jar（<http://www.apache.org/dist/logging/log4j/1.2.17/>）      
+2.下载 tomcat-juli.jar（<http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/>）      
+3.下载 tomcat-juli-adapters.jar（<http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/>）	
 **(若为其他版本须更名为tomcat-juli.jar和tomcat-juli-adapters.jar)**
 
 ## 替换jar包修改配置文件
