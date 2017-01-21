@@ -6,17 +6,17 @@ keywords: tomcat8 log4j
 ---
 
 ## 准备工作
-下载log4j-1.2.17.jar（http://www.apache.org/dist/logging/log4j/1.2.17/）
-下载 tomcat-juli.jar（http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/）
+下载log4j-1.2.17.jar（http://www.apache.org/dist/logging/log4j/1.2.17/）      
+下载 tomcat-juli.jar（http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/）      
 下载 tomcat-juli-adapters.jar（http://www.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/extras/）
 (若为其他版本须更名为tomcat-juli.jar和tomcat-juli-adapters.jar)
 
 ## 替换jar包修改配置文件
 
-1)把log4j-1.2.17.jar和tomcat-juli-adapters.jar放到$CATALINA_HOME/lib下；
-2)用新下载的tomcat-juli.jar包替换掉$CATALINA_HOME/bin/tomcat-juli.jar包。（名称必须为tomcat-juli.jar）
-3)删除$CATALINA_BASE/conf/logging.properties(或者更改名称)
-4)修改 Tomcat 的 conf/context.xml 文件，将<Context>改为<Context swallowOutput="true">
+1)把log4j-1.2.17.jar和tomcat-juli-adapters.jar放到$CATALINA_HOME/lib下；    
+2)用新下载的tomcat-juli.jar包替换掉$CATALINA_HOME/bin/tomcat-juli.jar包。（名称必须为tomcat-juli.jar）；
+3)删除$CATALINA_BASE/conf/logging.properties(或者更改名称)    
+4)修改 Tomcat 的 conf/context.xml 文件，将<Context>改为<Context swallowOutput="true">     
 5)新建log4j.properties 放到$CATALINA_HOME/lib目录下；
 ```
 	log4j.rootLogger=INFO, CATALINA,LOCALHOST,MANAGER,HOST-MANAGER
