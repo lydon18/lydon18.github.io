@@ -13,13 +13,9 @@ gyp ERR! not ok
 
 查看资料发现，可能需要增加--unsafe-perm，即
 
-``` sudo npm install node-sass --unsafe-perm --save-dev
-sudo npm install node-sass --unsafe-perm --save-dev
-```
+`sudo npm install node-sass --unsafe-perm --save-dev`
 
 或:
 
-```
-npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
-```
+`npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/`
 
