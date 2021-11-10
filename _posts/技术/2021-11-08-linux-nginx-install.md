@@ -48,9 +48,9 @@ https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
 
       **启动操作**
 
-​         `  /usr/local/nginx/sbin/nginx `  
+​         `/usr/local/nginx/sbin/nginx `  
 
-​	     ` /usr/local/nginx/sbin/nginx -t`  (查看配置信息) 
+​	     `/usr/local/nginx/sbin/nginx -t`  (查看配置信息) 
 
 ​			如果配置正确会提示:
 
@@ -59,7 +59,7 @@ nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok
 nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful
 ```
 
-​			修改端口号 :  ` vi /usr/local/nginx/conf/nginx.conf`    listen默认是80
+​			修改端口号 :  `vi /usr/local/nginx/conf/nginx.conf`    listen默认是80
 
 ​		**平滑重启**
 
